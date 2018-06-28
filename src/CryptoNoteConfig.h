@@ -93,7 +93,7 @@ const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindice
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "rsph";
+const char     CRYPTONOTE_NAME[]                             = "rsp";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac484c69cd608029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b8e87636559632d4a7d100e28265a1ec613567153e178d2b302543b3c9475ae6";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
@@ -131,8 +131,8 @@ const uint32_t P2P_IDLE_CONNECTION_KILL_INTERVAL             = (5 * 60);      //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const char* const SEED_NODES[] = { 
-  "10.5.16.127:33211",
-  "10.5.16.8:33211"
+  "podoroj.com:33211",
+  "node.podoroj.com:33211"
 };
 
 struct CheckpointData {
